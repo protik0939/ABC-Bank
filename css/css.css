@@ -138,3 +138,21 @@ body {
     color: rgb(0, 0, 0);
     box-shadow: 0 0 10px 5px rgba(0, 4, 255, 0.62);
 }
+@media only screen and (max-width: 900px) {
+    .container{
+        width: 90%;
+    }
+    .left-container, .right-container{
+        flex-direction: column;
+    }
+    .inbx, .outbx {
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+    }
+    .branding{
+        font-size: 20px;
+    }
+  }
