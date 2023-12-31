@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+
+body {
+    background-color: rgb(20, 19, 24);
+    color: white;
+    margin: 0px;
+    font-family: 'Baloo Da 2', sans-serif;
+}
+
+.header_name {
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.inner_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#loginbtn {
+    margin-top: 30px;
+}
+
+.tmp {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.backg-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    background: #c31432;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 95%;
+    width: 95%;
+    border-radius: 20px;
+}
+
+.left-container, .right-container{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items:center;
+    font-family: 'Baloo Da 2', sans-serif;
+}
+
+.inbx, .outbx
+{
+    vertical-align: middle;
+    background-color: #202025;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(255, 0, 0, 0.62);
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Baloo Da 2', sans-serif;
+}
+#ttlmn, #ttlwm, #ttldm
+{
+    text-align: center;
+}
+.branding{
+    color: #ff0000;
+    font-size: 70px;
+}
+#wd, #dep {
+    border-radius: 0px 10px 10px 0px;
+    background-color: #ff0000;
+    color: white;
+    border: 0px;
+    padding: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px 5px rgba(255, 0, 0, 0.62);
+    transition: .5s;
+}
+#depin, #wdin {
+    border-radius: 10px 0px 0px 10px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: solid 1px #ff0000;
+    padding: 5px;
+}
+
+#bnr{
+    position: relative;
+    background-color: #302f35;
+    padding: 7px 20px 7px 20px;
+    border: solid 1px #ff0000;
+    border-radius: 10px;
+}
+
+#wd:hover, #dep:hover {
+    border-radius: 0px 10px 10px 0px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 0px;
+    padding: 5px;
+    box-shadow: 0 0 10px 5px rgba(0, 4, 255, 0.62);
+}
